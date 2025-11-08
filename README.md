@@ -1,8 +1,9 @@
 # preprocesamiento-ciencia-datos
 ## Objetivo
+
 Aplicar de manera efectiva el uso de Git y GitHub para la gestion de versiones y la colaboracion en proyectos de Ciencias de Datos
 ---
-##Estructura basica del proyecto
+## Estructura basica del proyecto
 
 preprocesamiento-ciencia-datos/
 |
