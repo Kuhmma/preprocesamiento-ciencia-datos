@@ -16,6 +16,6 @@ preprocesamiento-ciencia-datos/
 
 -- 
 ## Autores
-Nombre del estudiante: Dennis Sanchez
-Materia: Cultura Digital y Sociedad
+Nombre del estudiante: Dennis Sanchez*
+Materia: Cultura Digital y Sociedad*
 Año: 2025
