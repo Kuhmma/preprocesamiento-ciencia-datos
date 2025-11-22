@@ -36,4 +36,10 @@ El codigo original implementa un algoritmo simple para buscar numeros primos, si
 | **Iteraciones** | 100,000  | Vectorizado  |
 | **Complejidad** | $O(n^2)$ | $O(n \log \log n)$ |
 
+    la optimizacion resulto ser **~39,231 veces más rápida**
+
+    ## B. Analisis de Profiling
+
+    se utilizo la herramientoa 'cProfile' para analizar el codigo original y optimizado
+    Nos mostro que el 99% de del tiempo de CPU se gasto en el bucle 'for' interno y en operaciones aritmeticas repetidas millones de veces 
     
