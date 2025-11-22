@@ -42,4 +42,18 @@ El codigo original implementa un algoritmo simple para buscar numeros primos, si
 
     se utilizo la herramientoa 'cProfile' para analizar el codigo original y optimizado
     Nos mostro que el 99% de del tiempo de CPU se gasto en el bucle 'for' interno y en operaciones aritmeticas repetidas millones de veces 
-    
+
+![Gráfico Comparativo](grafico_final.png)
+
+## Conlcusiones
+
+hemos observado varios beneficios al aplicar optimizaciones al codigo 
+    1. Se logro reducir el tiempo de ejecucion de 23 segundos a 0.0006 segundos, demostrando la importancia de elegir las estructuras correctas 
+    2. Mientras que el código original se volvía inusable al aumentar el rango, la versión vectorizada con NumPy puede manejar millones de datos en tiempos razonables sin bloquear el procesador.
+    3. Al eliminar millones de ciclos de CPU innecesarios, el código optimizado consume menos energía, lo cual es vital en entornos de producción en la nube o dispositivos móviles.
+
+## 6. Recomendaciones
+
+    1. No se debe adivinar qué parte del código es lenta. usar herramientas como `cProfile` es indispensable para identificar los verdaderos cuellos de botella antes de reescribir código.
+    2. Para operaciones matemáticas intensivas en Python, se recomienda siempre el uso de **NumPy** o **Pandas** en lugar de bucles nativos, aprovechando su ejecución en lenguaje C.
+    3. Si el proyecto requiriera aún más velocidad o bucles personalizados que NumPy no pueda vectorizar, el siguiente paso lógico sería utilizar librerías como **Numba**, que compilan funciones de Python a código máquina en tiempo real.
