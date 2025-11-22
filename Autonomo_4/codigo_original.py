@@ -6,7 +6,7 @@ def buscar_primos_sin_optimizar():
     inicio = time.time()
     primos = []
 
-    ###rangeo de 1 a 100000
+    ###rango de 1 a 100000
     for num in range(1, 100001):
         if num > 1:
             es_primo = True
